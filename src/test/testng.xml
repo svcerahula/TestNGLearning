@@ -3,7 +3,7 @@
 
     <test name="LoanDepartmenttests">
         <classes>
-            <class name="BasicsTestNG.TestNGDemo3">
+            <class name="BasicsTestNG.TestNGDemo1">
                     <methods>
                         <exclude name="mobile.*"/>
                         <include name="restapiLoginCarLoan"/>

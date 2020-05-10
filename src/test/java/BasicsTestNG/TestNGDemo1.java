@@ -12,7 +12,8 @@ import java.util.Map;
 
 public class TestNGDemo1 {
 
-    WebDriver wd1 = null;
+    public WebDriver wd1 = null;
+
     @BeforeMethod
     public void setupDriver() {
         System.setProperty("webdriver.chrome.driver","C:\\Rahula Space\\Drivers\\chromedriver_win32_ver79\\chromedriver.exe");
