@@ -1,21 +1,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestSuiteForAllHomePageUrls">
 
-    <test name="LoanDepartmenttests">
+    <test name="demo1demo2tests">
         <classes>
-            <class name="BasicsTestNG.TestNGDemo1">
-                    <methods>
-                        <exclude name="mobile.*"/>
-                        <include name="restapiLoginCarLoan"/>
-                        <include name="webLoginCarLoan"/>
-                    </methods>
-            </class>
+            <class name="TestNGDemoClasses.TestNGDemo1"/>
+            <class name="TestNGDemoClasses.TestNGDemo2"/>
         </classes>
     </test>
 
-    <test name="BasicDemoTests">
-        <packages>
-            <package name="BasicsTestNG"/>
-        </packages>
+    <test name="Demo3tests">
+        <classes>
+            <class name="TestNGDemoClasses.TestNGDemo3">
+                <methods>
+                    <exclude name="web.*"/>
+                    <exclude name="mobile.*"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>

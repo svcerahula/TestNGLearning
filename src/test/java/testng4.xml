@@ -1,0 +1,21 @@
+<suite name="Suite4" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="TestNGDemoClasses.ListenersTest1"/>
+    </listeners>
+    <parameter name="chromeAttrName" value="webdriver.chrome.driver"/>
+    <parameter name="chromeDriverPath" value="C:\Rahula Space\Drivers\chromedriver_win32_ver79\chromedriver.exe"/>
+    <test name="test4" parallel="classes" thread-count="4">
+        <parameter name="AmazonUrl" value="http://www.amazon.com"/>
+        <classes>
+            <class name="TestNGDemoClasses.TestNGDemo1"/>
+            <class name="TestNGDemoClasses.TestNGDemo2"/>
+        </classes>
+    </test>
+
+    <test name="test4-part2">
+        <parameter name="URL" value="qaacademy.com"/>
+        <classes>
+            <class name="TestNGDemoClasses.TestNGDemo3"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<suite name="TestNgdemotests">
+    <test name="regressionTestName">
+        <groups>
+            <run>
+                <exclude name="regressionTests"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNGDemoClasses.TestNGDemo1"/>
+            <class name="TestNGDemoClasses.TestNGDemo2"/>
+            <class name="TestNGDemoClasses.TestNGDemo3"/>
+        </classes>
+    </test>
+</suite>

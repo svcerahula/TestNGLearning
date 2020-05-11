@@ -2,11 +2,12 @@
 <suite name="TestSuiteForAllHomePageUrls">
     <test name="BasicDemoTests">
         <classes>
-            <class name="BasicsTestNG.TestNGDemo1">
+            <class name="TestNGDemoClasses.TestNGDemo1">
                 <methods>
                     <include name="goToGoogleHomePage"/>
                 </methods>
             </class>
+            <class name="TestNGDemoClasses.TestNGDemo2"/>
         </classes>
     </test>
 </suite>
